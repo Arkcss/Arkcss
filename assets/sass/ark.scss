@@ -1,0 +1,23 @@
+/* Media queries pre setup for merging later */
+$md-size: 991px;
+$sm-size: 767px;
+$xs-size: 480px;
+$xxs-size: 280px;
+
+/* HTML elements styling */
+*, *:before, *:after
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* Includes */
+@import "helpers/helpers.scss";
+@import "components/components.scss";
+@import "style/style.scss";

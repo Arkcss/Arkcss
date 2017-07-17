@@ -1,0 +1,10 @@
+$link-text-decoration: none;
+$link-color: #000;
+$link-weight: 400;
+a {
+	text-decoration: $link-text-decoration;
+	color: $link-color;
+	font-weight: $link-weight;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+}

@@ -1,0 +1,24 @@
+$button-border: solid 1px #EEE;
+$button-color: #EEE;
+$button-weight: 300;
+$button-padding: 15px 25px;
+$button-margin: 25px 0px;
+
+$alternative-button-color: #333;
+$alternative-button-border: solid 1px #333;
+
+/* Button */
+.button {
+	border: $button-border;
+	color: $button-color;
+	font-weight: $button-weight;
+	padding: $button-padding;
+	margin: $button-margin;
+}
+.alternative.button {
+	color: $alternative-button-color;
+	border: $alternative-button-border;
+	font-weight: $button-weight;
+	padding: $button-padding;
+	margin: $button-margin;
+}

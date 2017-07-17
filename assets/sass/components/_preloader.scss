@@ -1,0 +1,32 @@
+$ark-preloader-height: 5px;
+$ark-preloader-bar-height: 4px;
+
+$ark-preloader-background-color: #AAA;
+$ark-preloader-bar-background-color: #333;
+
+$ark-preloader-transition: opacity 1s;
+$ark-preloader-bar-transition: width 0.5s;
+
+#ark-preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	
+	width: 100%;
+	height: $ark-preloader-height;
+	z-index: 1;
+	
+	background-color: $ark-preloader-background-color;
+	
+	transition: $ark-preloader-transition;
+	
+	/* Preloader bar */
+	.bar {
+		width: 0;
+		height: $ark-preloader-bar-height;
+		
+		background-color: $ark-preloader-bar-background-color;
+		
+		transition: $ark-preloader-bar-transition;
+	}
+}

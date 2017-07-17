@@ -1,0 +1,33 @@
+$heading-1-margin: 0 0 35px 0;
+$heading-1-padding: 0;
+$heading-1-font-size: 36px;
+$heading-1-weight: 400;
+
+$heading-3-margin: 0 0 25px 0;
+$heading-3-padding: 0;
+$heading-3-weight: 400;
+$heading-3-font-size: 24px;
+
+$heading-5-margin: 0 0 15px 0;
+$heading-5-padding: 0;
+$heading-5-weight: 400;
+$heading-5-font-size: 16px;
+
+h1 {
+	margin: $heading-1-margin;
+	padding: $heading-1-padding;
+	font-size: $heading-1-font-size;
+	font-weight: $heading-1-weight;
+}
+h3 {
+	margin: $heading-3-margin;
+	padding: $heading-3-padding;
+	font-weight: $heading-3-weight;
+	font-size: $heading-3-font-size;
+}
+h5 {
+	margin: $heading-5-margin;
+	padding: $heading-5-padding;
+	font-weight: $heading-5-weight;
+	font-size: $heading-5-font-size;
+}

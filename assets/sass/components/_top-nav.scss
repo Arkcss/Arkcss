@@ -1,0 +1,70 @@
+/* Top Nav Bar */
+
+$top-nav-border: solid 1px #999;
+$top-nav-shadow: 0px 2px 3px rgba(0,0,0,0.3);
+$top-nav-padding: 10px 15px;
+
+$top-nav-brand-logo-h1-weight: 300;
+$top-nav-brand-logo-h1-font-size: 36px;
+$top-nav-brand-logo-h1-margin: 0;
+
+$top-nav-brand-logo-text-align-767px-and-below-screen: center;
+$top-nav-brand-logo-margin-bottom-767px-and-below-screen: 10px; 
+
+$top-nav-menu-row-align-items: center;
+$top-nav-menu-row-justify-content: flex-end;
+
+$top-nav-menu-row-justify-content-767px-and-below-screen: center;
+$top-nav-menu-row-margin-767px-and-below-screen: 0px 5px;
+
+$top-nav-menu-link-color: #333;
+$top-nav-menu-link-hover-color: #999;
+$top-nav-menu-link-transition: ease 0.3s;
+$top-nav-menu-link-margin: 0px 15px;
+
+.top-nav {
+	border-bottom: $top-nav-border;
+	box-shadow: $top-nav-shadow;
+	padding: $top-nav-padding;
+	
+	.brand-logo {
+		h1 {
+			font-weight: $top-nav-brand-logo-h1-weight;
+			font-size: $top-nav-brand-logo-h1-font-size;
+			
+			margin: $top-nav-brand-logo-h1-margin;
+		}
+	}
+	
+	.menu.row {
+		align-items: $top-nav-menu-row-align-items;
+		justify-content: $top-nav-menu-row-justify-content;
+		
+		li {
+			margin: $top-nav-menu-link-margin;
+	
+			a {
+				color: $top-nav-menu-link-color;
+				
+				transition: $top-nav-menu-link-transition;
+			}
+			a:hover {
+				color: $top-nav-menu-link-hover-color;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $md-size) {
+	.top-nav {
+		.brand-logo {
+			text-align: $top-nav-brand-logo-text-align-767px-and-below-screen;
+			margin-bottom: $top-nav-brand-logo-margin-bottom-767px-and-below-screen;
+		}
+		.menu.row {
+			justify-content: center;
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+	}
+}
