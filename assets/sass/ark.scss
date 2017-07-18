@@ -3,7 +3,6 @@ $md-size: 991px;
 $sm-size: 767px;
 $xs-size: 480px;
 $xxs-size: 280px;
-
 /* HTML elements styling */
 *, *:before, *:after
 {
@@ -16,7 +15,6 @@ body {
 	margin: 0;
 	padding: 0;
 }
-
 /* Includes */
 @import "helpers/helpers.scss";
 @import "components/components.scss";
